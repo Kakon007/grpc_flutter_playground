@@ -32,3 +32,23 @@ const Photo$json = const {
 
 /// Descriptor for `Photo`. Decode as a `google.protobuf.DescriptorProto`.
 final $typed_data.Uint8List photoDescriptor = $convert.base64Decode('CgVQaG90bxIOCgJpZBgCIAEoBVICaWQSGAoHYWxidW1JZBgBIAEoBVIHYWxidW1JZBIUCgV0aXRsZRgDIAEoCVIFdGl0bGUSEAoDdXJsGAQgASgJUgN1cmw=');
+@$core.Deprecated('Use albumRequestDescriptor instead')
+const AlbumRequest$json = const {
+  '1': 'AlbumRequest',
+  '2': const [
+    const {'1': 'id', '3': 1, '4': 1, '5': 5, '10': 'id'},
+  ],
+};
+
+/// Descriptor for `AlbumRequest`. Decode as a `google.protobuf.DescriptorProto`.
+final $typed_data.Uint8List albumRequestDescriptor = $convert.base64Decode('CgxBbGJ1bVJlcXVlc3QSDgoCaWQYASABKAVSAmlk');
+@$core.Deprecated('Use albumResponseDescriptor instead')
+const AlbumResponse$json = const {
+  '1': 'AlbumResponse',
+  '2': const [
+    const {'1': 'albums', '3': 1, '4': 3, '5': 11, '6': '.Album', '10': 'albums'},
+  ],
+};
+
+/// Descriptor for `AlbumResponse`. Decode as a `google.protobuf.DescriptorProto`.
+final $typed_data.Uint8List albumResponseDescriptor = $convert.base64Decode('Cg1BbGJ1bVJlc3BvbnNlEh4KBmFsYnVtcxgBIAMoCzIGLkFsYnVtUgZhbGJ1bXM=');
